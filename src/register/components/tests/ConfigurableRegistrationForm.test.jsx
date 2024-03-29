@@ -100,7 +100,7 @@ describe('ConfigurableRegistrationForm', () => {
       fieldDescriptions: {},
       optionalFields: {
         fields: {},
-        extended_profile: [],
+        extendedProfile: [],
       },
     },
   };
@@ -175,11 +175,11 @@ describe('ConfigurableRegistrationForm', () => {
           },
         },
         fieldDescriptions: {
-          terms_of_service: {
+          termsOfService: {
             name: FIELDS.TERMS_OF_SERVICE,
             error_message: 'You must agree to the Terms and Service agreement of our site',
           },
-          honor_code: {
+          honorCode: {
             name: FIELDS.HONOR_CODE,
             error_message: 'You must agree to the Honor Code agreement of our site',
           },
